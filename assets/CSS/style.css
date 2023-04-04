@@ -10,18 +10,11 @@ header {
   height: 100px
 }
 
-img {
-  width: 100%;
-  display: block;
-}
-
-
 .header {
   display: flex;
   justify-content: flex-end;
   list-style: none;
 }
-
 
 
 nav {
@@ -36,7 +29,36 @@ ul, li {
 }
 
 a {
-  color: rgb(6, 77, 209);
+  color: rgb(156, 21, 21);
   text-decoration: none;
 }
 
+img {
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+}
+
+.card-image {
+  position: relative;
+  width: 800px;
+}
+
+.card-overlay {
+  display: flex;
+  position: absolute;
+  /* left: 10px; */
+  width: 25%;
+  bottom: 10%;
+  font-size: larger;
+  font-style: oblique;
+  justify-content: center;
+  border: 3px solid rgb(95, 119, 144);
+  background-color: whitesmoke;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.card-image:hover .card-overlay {
+  opacity: 1;
+}

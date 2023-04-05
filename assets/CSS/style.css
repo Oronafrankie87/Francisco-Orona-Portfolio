@@ -37,7 +37,6 @@ header {
 
 .container {
   display: flex;
-  /* justify-content: center, space-evenly; */
   align-items: center;
 
 }
@@ -54,13 +53,18 @@ header {
 
 .container h2 {
   position: relative;
-  left: 50px;
-  right: 0;
+  left: 20px;
   white-space: nowrap;
 }
 
+.work h2 {
+  position: relative;
+  left: 20px;
+  top: 300px
+}
 
-.container p { 
+
+p { 
   position: relative;
   right: 0px;
   left: 350px;
@@ -68,86 +72,27 @@ header {
   
 
 }
-/* Code for the Section under the Profile pic and About me */
 
-#work h2{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  
-  
-}
 
-#work h2 {
-  display: flex;
-  margin: 0;
-  padding-top: 300px
-}
-
-.container-section a img {
+/* This affects the project 1 image */
+.card img {
   display: block;
   width: 400px;
   height: 400px;
   opacity: 10;
-  top: 300px;
-  left: 300px;
+  top: 500px;
+  left: 400px;
   position: absolute;
-  object-fit: cover;
+  border-radius: 50px;
+  border: 3px solid rgba(48, 127, 169, 0.5);
+  transition: filter 0.3s ease-in-out;
 
-}
-
-.overlay {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  opacity: 0;
-  transition: opacity 0.5s ease;
-  background-color: rgba(255, 255, 255, 0.5);
-}
-
-.card:hover .overlay {
-  opacity: 1;
 } 
-
-
-main {
-  position: relative;
-  z-index: 1;
-
-}
-
 
 /* For header and footer */
 ul, li {
   display: inline-block;
   margin-right: 50px;
-}
-
-
-.card {
-  width: 30%;
-  height: 200px;
-  margin: 10px;
-  position: relative;
-}
-
-
-.project-container-top-right {
-  display: flex;
-  justify-content: flex-end;
-  position: absolute;
-  top: 0;
-  left: 30%;
-}
-
-.project-container-bottom-right {
-  display: inline-block;
-  position: absolute;
-  bottom: 0;
-  right: 0;
 }
 
 footer {

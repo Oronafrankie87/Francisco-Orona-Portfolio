@@ -13,7 +13,10 @@ html {
 .name-title {
   font-size: 38px;
   margin: 0;
-  
+}
+
+main {
+  height: 100vh;
 }
 
 
@@ -159,7 +162,6 @@ header {
 footer {
   display: flex;
   justify-content: center;
-  align-items: flex-end; 
   background-color: rgba(48, 127, 169, 0.5);
   background: linear-gradient(
     to top,

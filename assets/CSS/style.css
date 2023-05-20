@@ -60,7 +60,63 @@ header {
   margin: 25px 20%;
 }
 
-.aboutme-title {
+#aboutimg {
+  width: 75px;
+  height: 70px;
+}
+
+#aboutimg:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+
+#contactimg {
+  width: 75px;
+  height: 70px;
+}
+
+#contactimg:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+
+#resumeimg {
+  width: 75px;
+  height: 70px;
+}
+
+#resumeimg:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+
+
+#webpages {
+  width: 75px;
+  height: 70px;
+}
+
+#webpages:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+#artwork {
+  width: 75px;
+  height: 70px;
+}
+
+#artwork:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
 }
 
 .work-title {

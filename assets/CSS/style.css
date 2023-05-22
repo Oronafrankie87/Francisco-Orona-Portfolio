@@ -237,6 +237,55 @@ header {
   margin-top: 22px;
 }
 
+#musicicon {
+  width: 75px;
+  height: 70px;
+  border-radius: 10px;;
+}
+
+#musicicon:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+#githubicon {
+  width: 75px;
+  height: 70px;
+  border-radius: 10px;;
+}
+
+#githubicon:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+#emailicon {
+  width: 75px;
+  height: 70px;
+  border-radius: 10px;;
+}
+
+#emailicon:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
+
+#phoneicon {
+  width: 75px;
+  height: 70px;
+  border-radius: 10px;;
+}
+
+#phoneicon:hover {
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  transition: 0.5s ease;
+  transform: scale(1.1);
+}
+
 footer {
   display: flex;
   justify-content: center;

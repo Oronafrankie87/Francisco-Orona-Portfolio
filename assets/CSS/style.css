@@ -263,7 +263,14 @@ header {
   text-align: center;
 }
 
+.resume-pgs img{
+  width: 400px;
+}
 
+.resume-url {
+  display: flex;
+  justify-content: center;
+}
 
 .contact {
   text-align: center;
@@ -349,4 +356,3 @@ footer {
   );
   color: Black;
 }
-

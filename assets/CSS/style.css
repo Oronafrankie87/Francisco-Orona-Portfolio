@@ -150,8 +150,8 @@ header {
 
 .project-section .card-1 img {
   display: flex;
-  width: 400px;
-  height: 400px;
+  width: 360px;
+  height: 360px;
   border-radius: 50px;
   border: 3px solid rgba(48, 127, 169, 0.5);
 }
@@ -180,7 +180,7 @@ header {
 }
 
 .card-5 {
-  bottom: 400px;
+  bottom: 205px;
 }
 
 .card-2 .overlay,
@@ -212,6 +212,58 @@ header {
   grid-template-columns: auto auto;
   margin-left: 20px;
 }
+
+
+.parrotimg {
+  width: 200px;
+  margin-left: 70px;
+}
+
+.robeimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.constimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.shotimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.heartimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.staffimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.helmimg {
+  width: 200px;
+  margin-left: 70px;
+}
+.lockettimg {
+  width: 200px;
+  margin-left: 70px;
+}
+
+.image-row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.image-row div {
+  flex: 0 0 25%;
+  padding: 5x;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+
 
 .contact {
   text-align: center;

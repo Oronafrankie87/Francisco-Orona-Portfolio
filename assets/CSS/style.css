@@ -178,10 +178,10 @@ header {
 .card-5 {
   position: relative;
 }
-
+/* 
 .card-5 {
   bottom: 205px;
-}
+} */
 
 .card-2 .overlay,
 .card-3 .overlay,

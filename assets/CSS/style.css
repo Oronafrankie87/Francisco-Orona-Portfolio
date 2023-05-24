@@ -213,6 +213,10 @@ header {
   margin-left: 20px;
 }
 
+.artwork-where {
+  display: flex;
+  justify-content: center;
+}
 
 .parrotimg {
   width: 200px;
@@ -274,6 +278,7 @@ header {
 
 .contact {
   text-align: center;
+  margin-top: 150px;
 }
 
 .contact ul {

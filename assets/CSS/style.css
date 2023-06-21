@@ -160,7 +160,7 @@ header {
   position: relative;
 }
 
-.card-1, img {
+#card-1-img {
   background-color: white;
   height: 100%;
   border-radius: 50px;

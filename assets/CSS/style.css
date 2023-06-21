@@ -157,7 +157,13 @@ header {
 }
 
 .card-1 {
-  position: relative
+  position: relative;
+}
+
+.card-1, img {
+  background-color: white;
+  height: 100%;
+  border-radius: 50px;
 }
 
 .overlay {
